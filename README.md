@@ -1,6 +1,6 @@
 # Stranded in Jyväskylä
 
-![screenshot](https://github.com/httpsterio/stranded-in-jkl/blob/master/cover.jpg?raw=true)
+![screenshot](https://github.com/httpsterio/Stranded-In-JKL/blob/master/cover.jpg?raw=true)
 
 > _Our little alien friend finds itself stranded in Jyväskylä, where it must procure the necessary items to proceed its journey through life and the galaxy on the side._
 

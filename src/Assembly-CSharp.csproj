@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5AAE1615-0953-94CC-A34A-FB0B96C2D124}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorDialogueObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorDragPhaseObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorGlobalVariablesContainer.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorMasterObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorMasterObjectWrapper.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorPhaseObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\DialogueObjects\DialogueEditorSelectionObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\ThemeObjects\DialogueEditorThemeObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\ThemeObjects\DialogueEditorThemesContainer.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\VariableObjects\DialogueEditorVariableObject.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Objects\VariableObjects\DialogueEditorVariablesContainer.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\DialogueEditorStatics.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\DialogueEditorWaitTypes.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorGetEquation.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorScopes.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorSetEquation.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Statics\VariableEditorTypes.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Core\Dialoguer.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Core\DialoguerDialogueManager.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Core\DialoguerEventManager.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Managers\DialoguerDataManager.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Monobehaviours\WaitPhaseComponent.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerData.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerDialogue.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerGlobalVariables.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerTextData.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerTheme.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Objects\DialoguerVariables.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\AbstractDialoguePhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\BranchedTextPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\ConditionalPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\EmptyPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\EndPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\SendMessagePhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\SetVariablePhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\TextPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Phases\WaitPhase.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Statics\DialoguerTextPhaseType.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Statics\PhaseState.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Statics\PhaseVarSubStrings.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Utilities\DialoguerSerializableDictionary.cs" />
+     <Compile Include="Assets\Dialoguer\Dialoguer\Scripts\Utilities\DialoguerUtils.cs" />
+     <Compile Include="Assets\DialoguerOutput\Enums\DialoguerDialogues.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\GUIT_Button.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\GUIT_Button_Simple.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\GUIText_Color.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\TGPDemo.cs" />
+     <Compile Include="Assets\Scripts\Controllers\ExplosionController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MouseController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\StudentController.cs" />
+     <Compile Include="Assets\Scripts\CrashCameraControls.cs" />
+     <Compile Include="Assets\Scripts\DialoguerGUI.cs" />
+     <Compile Include="Assets\Scripts\Events\GameJamObject.cs" />
+     <Compile Include="Assets\Scripts\Events\GameJamSide.cs" />
+     <Compile Include="Assets\Scripts\Events\Timo.cs" />
+     <Compile Include="Assets\Scripts\Events\UniversityDoor.cs" />
+     <Compile Include="Assets\Scripts\Events\UniversityObject.cs" />
+     <Compile Include="Assets\Scripts\Managers\ConversationManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\SpaceshipCrashControls.cs" />
+     <Compile Include="Assets\Scripts\SpaceshipIntroControls.cs" />
+     <Compile Include="Assets\Scripts\SpaceshipLeaveControls.cs" />
+     <Compile Include="Assets\Scripts\SpeechBubble.cs" />
+     <Compile Include="Assets\Scripts\StartScene\RotateSpaceship.cs" />
+     <Compile Include="Assets\Scripts\StartSceneControls.cs" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_BumpSpec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\!ToonyColorsPro Readme.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Spec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_BumpSpec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Basic_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Spec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_BumpSpec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Basic_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Bump_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Bump_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Basic_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Spec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Basic_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Include.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Bump_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Bump_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_BumpSpec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Spec_OneLight.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

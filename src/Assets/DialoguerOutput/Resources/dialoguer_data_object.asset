@@ -1,0 +1,4152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6531ab7068c4b839cc4eaa93394170, type: 3}
+  m_Name: dialoguer_data_object
+  m_EditorClassIdentifier: 
+  data:
+    generateEnum: 1
+    dialogues:
+    - id: 0
+      name: Compass_Ambient_SnakeSong
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 208, y: 17}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "Oooooon pieni\xE4 k\xE4\xE4rmeit\xE4"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 564, y: 45}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: "Helevetin pieni\xE4 k\xE4\xE4rmeit\xE4"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 191, y: 243}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Kun ne pannaan samaan pussiin,
+
+          niin ne alkaa heti -----'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 571, y: 216}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "Ja taaas on pieni\xE4 k\xE4\xE4rmeit\xE4."
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 1
+      name: Compass_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 181, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Wow it sure is crowded here.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 506, y: 10}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          What are those people with overalls queing on that seeimgly endless line
+          and why are they so loud?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 180, y: 156}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          It''s hard to me to understand what is going on.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 503, y: 155}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Nevermind. I better get doing something useful.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 183, y: 300}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          What''s up with that guy? Maybe I should talk to him.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 6
+        theme: 
+        position: {x: 534, y: 328}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 2
+      name: Compass_Timo_AI_Before
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 199, y: 16}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          Where I''ve seen that guy before?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 606, y: 75}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 3
+      name: Compass_Timo_AI_After
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 184, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 keskustelu sislt\xE4\xE4 AI:n sanomiset Timon kanssa juttelun
+          j\xE4lkeen"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 550, y: 38}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 4
+      name: Compass_Timo_Alien_Before
+      startPage: 1
+      scrollPosition: {x: 0, y: 720}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 519, y: 713}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 183, y: 10}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Help! I''ve been trapped here for ages. That god damn janitor keeps me from
+          getting that last shard of dimension portal.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 3
+        theme: 
+        position: {x: 513, y: 13}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 182, y: 222}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Know what the worst part is?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 3
+        theme: 
+        position: {x: 495, y: 314}
+        outs: 00000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 2
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: UniversityOutsideLevel
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 11, y: 367}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Watch.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 10, y: 511}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Hello!'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 0
+        theme: 
+        position: {x: 14, y: 673}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          HELLO!'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 411, y: 806}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Would someone please aknowledge me?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 0
+        theme: 
+        position: {x: 10, y: 916}
+        outs: 0a000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          I can introduce you trough city!'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 0
+        theme: 
+        position: {x: 373, y: 964}
+        outs: 0b000000
+        advanced: 0
+        metadata: 
+        text: 'Crowd:
+
+          We know, go away.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 0
+        theme: 
+        position: {x: 27, y: 1186}
+        outs: 0c000000
+        advanced: 0
+        metadata: 
+        text: 'Crowd:
+
+          Why you keep talking English anyway?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 0
+        theme: 
+        position: {x: 380, y: 1139}
+        outs: 0d000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          I DONT KNOW!!'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 0
+        theme: 
+        position: {x: 379, y: 1325}
+        outs: 0e000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          See?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 14
+        type: 0
+        theme: 
+        position: {x: 28, y: 1429}
+        outs: 0f000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          You know what? I was supposed to challenge you to rock-scissors-paper game,
+          BUT YOU KNOW WHAT? I don''t care anymore.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 15
+        type: 0
+        theme: 
+        position: {x: 463, y: 1555}
+        outs: 10000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Here, take it. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 16
+        type: 0
+        theme: 
+        position: {x: 42, y: 1656}
+        outs: 11000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          You sure?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 17
+        type: 0
+        theme: 
+        position: {x: 438, y: 1778}
+        outs: 12000000
+        advanced: 0
+        metadata: 
+        text: 'Timo:
+
+          Yeah.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 18
+        type: 0
+        theme: 
+        position: {x: 43, y: 1882}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Ok then. I''ll come rescue you some time.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 5
+      name: Compass_Timo_Alien_After
+      startPage: -1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 207, y: 10}
+        outs: ffffffff
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 keskustelu sis\xE4lt\xE4\xE4 Alienin sanomiset ennen Timon
+          kanssa juttelemista"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 6
+      name: UniversityOut_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 60}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 218, y: 10}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          This should be the place'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 798, y: 151}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 56, y: 163}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Singh:
+
+          "Kiihdytinlaboratorio"'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 581, y: 370}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Sweet. Ty Singh!'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 43, y: 396}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Singh:
+
+          Np.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 7
+      name: UniversityOut_Door_AI
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 193, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          A door.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 575, y: 49}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 8
+      name: UniversityOut_Door_Alien
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 188, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sislt\xE4\xE4 Alienin sanomiset ovesta"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 3
+        theme: 
+        position: {x: 503, y: 10}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 2
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: UniversityInsideLevel
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 280, y: 212}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 9
+      name: UniversityOut_Sign_AI
+      startPage: -1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 194, y: 10}
+        outs: ffffffff
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sis\xE4lt\xE4\xE4 AI:n sanomiset kyltist\xE4"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 10
+      name: UniversityOut_Sign_Alien
+      startPage: -1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 198, y: 10}
+        outs: ffffffff
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sis\xE4lt\xE4\xE4 Alienin sanomiset kyltist\xE4"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 11
+      name: UniversityIn_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 182, y: 10}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Hello!'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 567, y: 30}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 28, y: 188}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Mind if i borrow your hadron collider for.. a while?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 431, y: 208}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Anyone?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 42, y: 362}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Sweet..'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 12
+      name: UniversityIn_Object_AI
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 200, y: 15}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          That is a particle accelerator.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 552, y: 31}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 13
+      name: UniversityIn_Object_Alien
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 189, y: 12}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Ok. One more. I have a strange feeling about next place.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 236, y: 486}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 3
+        theme: 
+        position: {x: 501, y: 12}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 1
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 3
+        theme: 
+        position: {x: 502, y: 305}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 2
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: GameJamLevel
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 14
+      name: GameJam_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 360}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 184, y: 10}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Greetings earthlings! I''ve came from outer space to obtain a sacret artifact
+          I believe lies in this location.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 543, y: 32}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 62, y: 215}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          GREETINGS EARTHLINGS! I''VE CAME FROM OUTER SPACE TO OBTAIN A SACRET ARTIFACT
+          I BELIEVE LIES IN THIS LOCATION'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 440, y: 220}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          ...'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 72, y: 432}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: 'Jammer1:
+
+          Tuliks pizzat?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 478, y: 435}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: 'Jammer2:
+
+          Ei. Joku maskotti. Varmaan Zaibatsun juttuja.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 167, y: 660}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 'Jammer1:
+
+          Aa.. Perus perus..'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 0
+        theme: 
+        position: {x: 543, y: 664}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 'Jammer2:
+
+          Jep.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 165, y: 797}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          ...'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 0
+        theme: 
+        position: {x: 542, y: 836}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Meh.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 15
+      name: GameJam_Side_AI
+      startPage: 1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 562, y: 29}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 204, y: 10}
+        outs: 00000000
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sislt\xE4\xE4 AI:n maininnat sivulle (kulmaan) menemisest\xE4"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 16
+      name: GameJam_Side_Alien
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 178, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sislt\xE4\xE4 alienin maininnat sivulle (kulmaan) menemisest\xE4"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 516, y: 31}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 17
+      name: GameJamCorner_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 193, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sis\xE4lt\xE4\xE4 game jamin kulmaan saapumisen tekstin"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 549, y: 32}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 18
+      name: GameJamCorner_Object_AI
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 178, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          We need that.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 548, y: 26}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 19
+      name: GameJamCorner_Object_Alien
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 178, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          I need this.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 3
+        theme: 
+        position: {x: 506, y: 10}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 2
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 199, y: 479}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 170, y: 198}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Alright! Let''s get back to ship.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 3
+        theme: 
+        position: {x: 505, y: 304}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 2
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: LeaveScene
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 20
+      name: Ship_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 186, y: 10}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          So.. Now?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 1016, y: 132}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 3
+        theme: 
+        position: {x: 675, y: 77}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 3
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: true
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 33, y: 184}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          Now.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 229, y: 370}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Sweet.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 21
+      name: Ship_Leave
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 179, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: "T\xE4m\xE4 sislt\xE4\xE4 loppu keskustelun kun alus l\xE4htee"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 534, y: 40}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 22
+      name: Start_Intro
+      startPage: 0
+      scrollPosition: {x: 0, y: 60}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 218, y: 45}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'CPU:
+
+          * Alert alert *'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 1069, y: 284}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 3
+        theme: 
+        position: {x: 726, y: 96}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 2
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: LandingScene
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 270, y: 215}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Great. What now?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 399, y: 394}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'CPU:
+
+          * Engine malfunction, commensing emergency landing *'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 23
+      name: Start_AfterCrash
+      startPage: 0
+      scrollPosition: {x: 138.157166, y: 300}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 188, y: 10}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          That wasn''t so bad.
+
+'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 1193, y: 195}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 3
+        theme: 
+        position: {x: 853, y: 75}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 2
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: CompassLevel
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 0
+        theme: 
+        position: {x: 432, y: 165}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'CPU:
+
+          *Selfdestruct sequence commensing in 3..2..1..*'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 428, y: 318}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 459.157166, y: 495}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Geez.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 423.157166, y: 659}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Pokedex, my trusted old companion. WHAT SHOULD WE DO KNOW?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 0
+        theme: 
+        position: {x: 127.157166, y: 404}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: 'CPU:
+
+          *Ohjelma on suorittanut laittoman toiminnon ja se lopetetaan*'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 579.157166, y: 814}
+        outs: 09000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          ...'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 0
+        theme: 
+        position: {x: 191.157166, y: 873}
+        outs: 0a000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          You just had to say that didn''t you?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 0
+        theme: 
+        position: {x: 548.157166, y: 976}
+        outs: 0b000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          Yes.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 0
+        theme: 
+        position: {x: 157.157166, y: 1102}
+        outs: 0c000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          Tell me. Am I created just so you can say that sentence?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 0
+        theme: 
+        position: {x: 544.157166, y: 1139}
+        outs: 0d000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          ...'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 0
+        theme: 
+        position: {x: 197.157166, y: 1256}
+        outs: 0e000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          ...'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 14
+        type: 0
+        theme: 
+        position: {x: 582.157166, y: 1336}
+        outs: 0f000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          Anyways. We need to obtain three items to get this ship function again.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 15
+        type: 0
+        theme: 
+        position: {x: 218.157166, y: 1474}
+        outs: 10000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          A power supply.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 16
+        type: 0
+        theme: 
+        position: {x: 572.157166, y: 1524}
+        outs: 11000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          New engine.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 17
+        type: 0
+        theme: 
+        position: {x: 218.157166, y: 1629}
+        outs: 12000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          A device to call home.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 18
+        type: 0
+        theme: 
+        position: {x: 573.157166, y: 1714}
+        outs: 13000000
+        advanced: 0
+        metadata: 
+        text: 'Hero:
+
+          And you know where these items are located?'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 19
+        type: 0
+        theme: 
+        position: {x: 206.157166, y: 1794}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'Pokedex:
+
+          Ofcourse. Let''s go.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 24
+      name: General_NotNow
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 188, y: 10}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You can't use that now!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 540, y: 28}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 25
+      name: General_UserNotSelected
+      startPage: 1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 583, y: 42}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 201, y: 18}
+        outs: 00000000
+        advanced: 0
+        metadata: 
+        text: You have to select user to do the interaction!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    globals:
+      booleans:
+        variables:
+        - name: item1
+          variable: false
+          id: 0
+        - name: item2
+          variable: false
+          id: 1
+        - name: item3
+          variable: false
+          id: 2
+        - name: conversationOver
+          variable: false
+          id: 3
+        selection: 3
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables:
+        - name: Level
+          variable: 
+          id: 0
+        selection: 0
+    themes:
+      themes: []
+      selection: 0
+    selectorScrollPosition: {x: 0, y: 0}

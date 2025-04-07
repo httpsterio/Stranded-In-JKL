@@ -1,0 +1,12 @@
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Niko\Documents\GitHub\ggj15\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Niko\Documents\GitHub\ggj15\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Niko\Documents\GitHub\ggj15\obj\Debug\Assembly-CSharp.dll
+C:\Users\Niko\Documents\GitHub\ggj15\obj\Debug\Assembly-CSharp.pdb
